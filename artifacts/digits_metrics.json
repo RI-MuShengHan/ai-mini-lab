@@ -1,0 +1,141 @@
+{
+  "dataset": "sklearn load_digits (8x8), not MNIST",
+  "seed": 42,
+  "split": "stratified 75% train / 25% test",
+  "train_size": 1347,
+  "test_size": 450,
+  "accuracy": 0.9888888888888889,
+  "macro_f1": 0.9887993087351836,
+  "dummy_accuracy": 0.10222222222222223,
+  "confusion_matrix": [
+    [
+      45,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      46,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      44,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      46,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      45,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      45,
+      0,
+      0,
+      0,
+      1
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      44,
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      45,
+      0,
+      0
+    ],
+    [
+      0,
+      2,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      41,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      44
+    ]
+  ],
+  "parameters": {
+    "model": "SVC",
+    "gamma": 0.001
+  },
+  "note": "Single fixed split; benchmark accuracy does not imply arbitrary handwriting accuracy.",
+  "environment": {
+    "python": "3.13.7",
+    "sklearn": "1.9.0"
+  }
+}

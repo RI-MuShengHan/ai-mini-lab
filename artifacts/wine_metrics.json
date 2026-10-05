@@ -1,0 +1,44 @@
+{
+  "dataset": "UCI Wine via sklearn.load_wine",
+  "split": "stratified 75/25, seed=42; preprocessing fit on training only",
+  "train_size": 133,
+  "test_size": 45,
+  "features": 13,
+  "accuracy": 1.0,
+  "macro_f1": 1.0,
+  "dummy_accuracy": 0.4,
+  "train_cv_macro_f1": [
+    0.9619047619047619,
+    0.9619047619047619,
+    1.0,
+    0.9649122807017543,
+    1.0
+  ],
+  "train_cv_mean": 0.9777443609022557,
+  "confusion_matrix": [
+    [
+      15,
+      0,
+      0
+    ],
+    [
+      0,
+      18,
+      0
+    ],
+    [
+      0,
+      0,
+      12
+    ]
+  ],
+  "parameters": {
+    "C": 1.0,
+    "max_iter": 1000
+  },
+  "note": "Small historical 3-class dataset; one fixed test split, no claim about production use.",
+  "environment": {
+    "python": "3.13.7",
+    "sklearn": "1.9.0"
+  }
+}

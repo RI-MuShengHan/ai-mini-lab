@@ -1,0 +1,61 @@
+{
+  "dataset": "8 authored demo-note queries; not an external benchmark",
+  "count": 8,
+  "hit_at_1": 1.0,
+  "hit_at_3": 1.0,
+  "queries": [
+    {
+      "query": "如何避免词表造成数据泄漏",
+      "source": "ml.md",
+      "heading": "训练集与测试集",
+      "rank": 1
+    },
+    {
+      "query": "冻结预训练模型的特征提取层",
+      "source": "ml.md",
+      "heading": "迁移学习",
+      "rank": 1
+    },
+    {
+      "query": "文本长度不同，如何补齐",
+      "source": "ml.md",
+      "heading": "变长序列",
+      "rank": 1
+    },
+    {
+      "query": "跳转之后冲刷哪些指令",
+      "source": "systems.md",
+      "heading": "流水线有效位",
+      "rank": 1
+    },
+    {
+      "query": "PC和寄存器写回数据与参考实现比较",
+      "source": "systems.md",
+      "heading": "差分仿真",
+      "rank": 1
+    },
+    {
+      "query": "任务中断了如何避免重复生成",
+      "source": "systems.md",
+      "heading": "Agent 中断恢复",
+      "rank": 1
+    },
+    {
+      "query": "批量生成前应该让人确认什么",
+      "source": "systems.md",
+      "heading": "人工审核",
+      "rank": 1
+    },
+    {
+      "query": "TF-IDF的稀疏特征如何做主题判断",
+      "source": "ml.md",
+      "heading": "文本分类",
+      "rank": 1
+    }
+  ],
+  "note": "Lexical TF-IDF retrieval, no LLM generation or semantic embeddings.",
+  "environment": {
+    "python": "3.13.7",
+    "sklearn": "1.9.0"
+  }
+}
